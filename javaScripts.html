@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style>
+html { 
+        background-color:white;
+    }
+
+</style>
+<body>
+REMEMBER: 
+<pre>
+The HTML &lt;script&gt; tag is used to define a client-side script (JavaScript).
+The &lt;script&gt; element either contains script statements.
+Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.
+To select an HTML element, JavaScript most often uses the document.getElementById() method.
+This JavaScript example writes &quot;Hello JavaScript!&quot; into an HTML element with id=&quot;demo&quot;:
+</pre>
+
+<h4> 1. Example of a script: </h4>
+
+<code> <pre>
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h2&gt;Use JavaScript to Change Text&lt;/h2&gt;
+&lt;p&gt;This example writes &quot;Hello JavaScript!&quot; into an HTML element with id=&quot;demo&quot;:&lt;/p&gt;
+
+&lt;p id=&quot;demo&quot;&gt;&lt;/p&gt;
+
+&lt;script&gt;
+document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello JavaScript!&quot;;
+&lt;/script&gt; 
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre> </code>
+
+<h4> 2. Example of a script that changes style of the letters: </h4>
+<code> <pre>
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;h1&gt;My First JavaScript&lt;/h1&gt;
+
+&lt;p id=&quot;demo&quot;&gt;JavaScript can change the style of an HTML element.&lt;/p&gt;
+
+&lt;script&gt;
+function myFunction() {
+  document.getElementById(&quot;demo&quot;).style.fontSize = &quot;25px&quot;; 
+  document.getElementById(&quot;demo&quot;).style.color = &quot;red&quot;;
+  document.getElementById(&quot;demo&quot;).style.backgroundColor = &quot;yellow&quot;;        
+}
+&lt;/script&gt;
+
+&lt;button type=&quot;button&quot; onclick=&quot;myFunction()&quot;&gt;Click Me!&lt;/button&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+</pre> </code>
+<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script_styles"> Check how it works. </a> </h1>
+
+<br>
+
+<h1> More examples and any other information is here: <a href="https://www.w3schools.com/html/html_scripts.asp"> Java Script </a>. </h1>
+
+
+
+
+
+</body>
+
+</html>
